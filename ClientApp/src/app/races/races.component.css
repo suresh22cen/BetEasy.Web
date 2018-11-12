@@ -1,0 +1,38 @@
+
+.filter_wrapper_title {
+  background-color: #8935c0;
+  border-radius: 4px 4px 0 0;
+  padding: 12px 14px;
+}
+
+.filter_wrapper_title a {
+  color: white;
+}
+
+.filters {
+  background-color: #fff;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+}
+
+.filter_active {
+  background-color: #8935c0 !important;
+  color: #fff !important;
+}
+
+.filter_active svg {
+    fill: #fff;
+}
+
+.filter-item {
+  -ms-flex: 1;
+  background-color: transparent;
+  border: 1px solid #65309c;
+  border-radius: 3px;
+  color: #65309c;
+  flex: 1;
+  height: 36px;
+  margin-right: 5px;
+  text-transform: capitalize;
+}
